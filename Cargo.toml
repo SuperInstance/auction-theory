@@ -1,0 +1,15 @@
+[package]
+name = "auction-theory"
+version = "0.1.0"
+edition = "2024"
+description = "Auction mechanism design: Vickrey, English, Dutch, and combinatorial auctions with revenue equivalence verification"
+license = "MIT"
+repository = "https://github.com/SuperInstance/auction-theory"
+keywords = ["auction", "mechanism-design", "vickrey", "game-theory", "economics"]
+categories = ["algorithms", "mathematics", "simulation"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
